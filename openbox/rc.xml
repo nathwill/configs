@@ -226,6 +226,33 @@
       <action name="ToggleShowDesktop"/>
     </keybind>
     <!-- Keybindings for windows -->
+    <keybind key="C-x">
+      <keybind key="m">
+        <action name="ToggleMaximizeFull"/>
+      </keybind>
+      <keybind key="s">
+        <action name="ToggleShade"/>
+      </keybind>
+      <keybind key="p">
+        <action name="ToggleOmnipresent" />
+      </keybind>
+    </keybind>
+    <keybind key="C-Tab">
+       <action name="UnmaximizeFull"/>
+       <action name="MaximizeVert"/>
+       <action name="MoveResizeTo">
+         <width>683</width>
+       </action>
+       <action name="MoveToEdgeWest"/>
+    </keybind>
+    <keybind key="S-Tab">
+        <action name="UnmaximizeFull"/>
+        <action name="MaximizeVert"/>
+        <action name="MoveResizeTo">
+        <width>683</width>
+        </action>
+        <action name="MoveToEdgeEast"/>
+    </keybind>
     <keybind key="A-F4">
       <action name="Close"/>
     </keybind>
